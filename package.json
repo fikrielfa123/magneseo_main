@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@bundled-es-modules/pdfjs-dist": "^3.6.172-alpha.1",
+        "@coreui/chartjs": "^3.0.0",
+        "@coreui/coreui": "^4.2.2",
+        "@coreui/icons": "^3.0.1",
+        "@coreui/utils": "^2.0.1",
+        "@coreui/vendors-injector": "^1.1.4",
+        "@creativebulma/bulma-tagsinput": "^1.0.3",
+        "@morteza-jamali/lineicons": "^2.0.1",
+        "@popperjs/core": "^2.11.6",
+        "@tarekraafat/autocomplete.js": "^10.2.7",
+        "@yaireo/tagify": "^4.17.1",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.2",
+        "bootstrap5-tags": "^1.4.42",
+        "chart.js": "^4.2.1",
+        "jquery": "^3.6.4",
+        "js-cookie": "^3.0.1",
+        "laravel-vite-plugin": "^0.7.0",
+        "lodash": "^4.17.19",
+        "pdfjs-dist": "^3.7.107",
+        "perfect-scrollbar": "^1.5.5",
+        "postcss": "^8.4.6",
+        "puppeteer": "^19.4.1",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "simplebar": "^6.2.1",
+        "sortablejs": "^1.15.0",
+        "sweetalert2": "^11.7.3",
+        "vite": "^4.2.0",
+        "vite-plugin-static-copy": "^0.13.0"
+    },
+    "dependencies": {
+        "basiclightbox": "^5.0.4",
+        "clipboard": "^2.0.11",
+        "jsoneditor": "^9.9.2"
+    }
+}

@@ -1,0 +1,339 @@
+### Changelog
+# All notable changes to this project will be documented in this file.
+
+## [2.0.0] - 2023-08-04
+### Improvements
+# Improved responsiveness of social share widget on tools page.
+# Search box responsiveness improvements.
+# Made improvements in XML sitemap generator.
+
+### Added
+# Added options to enable/disable favorite system.
+# Added option to disable login/register from menu.
+# Added option to allow unlimited tools usage.
+# For small updates added patches system.
+# Added support for Stripe 3DS.
+# On page and post editor added option to set link target.
+# On page and post editor added option to set nofollow on external links.
+
+### New Tools
+# Added word to pdf converter tool.
+# Added text to pdf converter tool.
+# Added merge pdf tool.
+# Added organize pdf tool.
+# Added pdf to zip tool.
+# Added watermark pdf tool.
+# Added lock pdf tool.
+# Added unlock pdf tool.
+# Added jpg to pdf tool.
+# Added png to pdf tool.
+# Added gif to pdf tool.
+# Added bmp to pdf tool.
+# Added tiff to pdf tool.
+# Added image to pdf converter tool.
+# Added html to pdf tool.
+# Added ppt to pdf converter tool.
+# Added excel to pdf converter tool.
+# Added pdf to word converter tool.
+# Added pdf to ppt converter tool.
+# Added pdf to excel converter tool.
+# Added pdf to png converter tool.
+# Added pdf to jpg tool.
+# Added pdf to tiff converter tool.
+# Added pdf to bmp converter tool.
+# Added grayscale pdf tool.
+# Added pdf compressor tool.
+# Added remove pdf pages tool.
+# Added serp checker tool.
+# Added keyword position tool.
+# Added keyword density checker tool.
+# Added related keywords finder tool.
+# Added keyword research tool tool.
+# Added keywords rich domains tool.
+# Added mozrank checker tool.
+# Added google cache checker tool.
+# Added check gzip compression tool.
+# Added ssl checker tool.
+# Added spider simulator tool.
+# Added what is my browser tool.
+# Added get http header tool.
+# Added htaccess redirect tool.
+# Added mobile friendly test tool.
+# Added adsense calculator tool.
+# Added webpage screen resolution simulator tool.
+# Added english converter tool.
+# Added paraphrased tool.
+
+### Fixed
+# Fixed MOZ API Driver isssue.
+# Fixed an issue in DynamicCss when login bg image is removed.
+# Sitemap generator tool added maximum dept to improve its performance.
+# Fixed tools is showing incorrect S3 URL.
+# Fixed ads remove transaction isn't showing in admin panel.
+# Fixed dashboard isn't showing ads removal subscription amount.
+# Fixed an ads removal subscription still showing ads issue.
+# Fixed plan update ads and api values aren't saving issue.
+# Fixed tool card not clickable on small devices.
+# Fixed sub-menu showing login/register buttons in main menu.
+# Fixed horitontal scroll on small devices.
+# Fixed max words validation message.
+# Fixed social share widget not showing whatsapp share icon.
+# Fixed what is my ip tool overflow issue on small devices.
+# Fixed not able to disable PayStack gateway issue.
+# Fixed age calculator showing NaN on some dates.
+# Age calculator now calculates leap years correctly.
+# Fixed cookie consent shows even its already accepted.
+
+### Updated
+# Laravel has been updated to v9.52.14 and other packages have been updated as well.
+
+
+## [1.4.5] - 2023-05-11
+### Added
+# Added new payment gateways: Skrill, Paystack, Razorpay, Mollie and Bank Transfer.
+# Homepage added H1 tag with sitename.
+# Added support to add sub menu in menu manager.
+
+### Improvements
+# Several SEO and Accesibility improvements.
+# Improved checkout process.
+# Converted Google Anlytics to tag manager.
+
+### Improvements
+# Several SEO and Accesibility improvements.
+
+### Updated
+# Updated Google Anlytics to TagManager.
+
+### Fixed
+# Featured image not uploading when creating new post issue fixed.
+# Fixed Domain Authority throwing 500 error issue.
+# Fixed domain name showing _ in the name.
+# Fixed an issue with auth page BG.
+# Fixed horizontal scroll issue on small devices.
+# Hide cookie concent from showing when it is already accepted.
+
+## [1.4.4] - 2023-05-04
+### Improvements
+# SEO Report checks improvements.
+# Footer widgets responsiveness improvement.
+
+### Added
+# Added twitter image URL on twitter card generator.
+# Added support to organize order of categories on tools page.
+# Added support to change order of tools.
+
+### Fixed
+# Fixed categories page showing inactive tool.
+# Fixed tool OG image not adding full URL.
+# Fixed QR code PNG and EPS file not generating issue.
+# Fixed tool edit showing posts categories.
+# SEO Report fixed nofollow check.
+# Fixed tool page redirecting to homepage when tool is set to home.
+# Fixed dark mode layout when user manually change mode to light.
+
+## [1.4.3] - 2023-04-26
+###
+# Added Twitter username settings option.
+# Added ads slots for blog page.
+# Added blog post meta data.
+
+### Fixed
+# Fixed FAQ's edit wont update the changes.
+# Fixed admin create/update page validation rules.
+# Converted home page tools h1 to h2 for SEO.
+# Fixed SEO tool on homepage doesn't print the report.
+# Fixed settings confirm message not showing issue.
+# Fixed Tools OG image not showing issue.
+# Fixed sales tax calculator giving incorrect result.
+# Fixed settings not saving admin menu.
+# Fixed an issue when the payment gateway isn't configured correctly.
+# Fixed Favicon showing loading when downloading generated favicon files.
+# Fixed favicon media uploader message.
+# Fixed media uploader background issue.
+# Fixed product registration popup missing styles.
+
+### Updated
+# Laravel has been updated to v9.52.7 and other packages have been updated as well.
+
+## [1.4.2] - 2023-04-12
+### Added
+# Added OG Image in settings for homepage.
+# Added an option to enable / disable FAQ's on tools homepage
+# Added an option to enable / disable Plans list on tools homepage
+# Added Social Share Icons on tool page.
+
+### Fixed
+# Fixed tools page meta data not showing issue on homepage.
+# Fixed theme options BG and Text Colors issue.
+# Fixed tools validation rules on edit.
+# Fixed tools widget showing inactive tools issue.
+# Fixed SEO Report showing report on bottom of page when printing.
+# Domain Authority tool results fixed.
+# Fixed category view link in admin panel.
+# Fixed admin product registration show on every load.
+# Fixed admin panel 2fa not working.
+# Fixed forgot password redirects to admin panel issue.
+
+### Updated
+# Laravel has been updated to v9.52.5 and other packages have been updated as well.
+
+
+## [1.4.1] - 2023-03-31
+### Added
+# Screenshot Generator new Driver is added.
+
+### Fixed
+# Fixed plan price not updating from admin panel.
+# Added floating numbers support on plan edit/create pages.
+# Fixed Contact page throwing 500 error issue.
+# Fixed Euro currencies not formating correctly.
+# Fixed count in the URL Opener Tool.
+# Fixed contact us page 500 error.
+# Fixed PayPal gateway not setting correct currency.
+# Fixed tool meta not updating issue.
+# Domain authority MOZ API key option added.
+
+
+### Updated
+# Blog category page to show latest post first.
+
+## [1.4.0] - 2023-03-29
+### Note
+# To implement tools on the homepage, we have to overwrite any previous changes made to the homepage content. We apologize in advance for any inconvenience this may cause.
+
+### Added
+# Added new Google Vision Driver for OCR tools.
+# Added dark mode support for auth pages. (login, register and password reset)
+# Added new admin page to show deleted users.
+# Added new admin page to manage homepage supported tools.
+# The homepage tools now process results on same page.
+
+### Fixed
+# Fixed issue on Categories edit throwing error messages.
+# Fixed tools edit page not updating other language contents.
+# Fixed "No hint path defined for [sitemap]" issue on Sitemap Generator.
+# Fixed admin transactions page.
+# fixed Admin menu not appearing on mobile devices.
+# Correction of Text to Binary tool conversion.
+# Footer Menu widget list layout display Bug fixes.
+# Favorite button for guest redirect to login page now.
+# Auth pages light version integration.
+# Article rewrite openAi logn text response issue fixes.
+# Fixed plan options box not changing properties values on update.
+
+## [1.3.1] - 2023-03-21
+### Fixed
+# Slug not generating in multilengual.
+# Fixed translations not saving in multilengual.
+# Multilengual improvements.
+# The social login routes fixed.
+# Some minor bug fixes.
+
+## [1.3.0] - 2023-03-17
+### Added
+# Added back to top feature.
+# Added language change route.
+# Now you can set different menu for header from Theme Options.
+# Added custom error pages, 404, 500, 503, 401.
+# Added validation error messages on Auth pages.
+# Added Typography in Theme Options.
+
+### Updated
+# All calculator tools now allow decimal numbers.
+# Several responsiveness issues has been addressed.
+# Tools page responsiveness issues fixed.
+# RTL improvements.
+# Remove ads link open in new tab.
+# Laravel packages have been updated.
+# Updated JavaScript dependencies.
+
+### Fixed
+# Fixed Theme Options colors not applying.
+# Fixed widgets area 500 error issues.
+# Fixed dashboard redirect issue on login.
+# Fixed an error on transactions when plan is removed.
+# Fixed some multilingual issues.
+# Fixed forgot password showing dark/light logos.
+# Fixed forgot password not working issue.
+# Fixed Posts widget card layout.
+# Fixed color issues in Dark mode.
+# Fixed views count in admin dashboard.
+# Fixed logo link to home page on all Auth pages.
+# Fixed register form autocomplete.
+# Fixed rewrite article validation counting characters instead of words.
+# Disabled Google Analytics on admin panel.
+# Fixed JSON to XML tool 500 error.
+# Fixed 500 error on plans page.
+# Sitemap generator error resolved.
+# Fixed Meme Generator.
+
+## [1.2.0] - 2023-03-02
+### Improvements
+# Performance has been optimized.
+# New improved layout for SEO Report.
+
+### Added
+# An option has been added in Settings > Layout to disable the site name from the title.
+# An option to generate a sitemap has been added.
+# A new tool, the XML Sitemap Generator, has been added.
+# Landing page support has been added for five more tools.
+# Added an option to delete users from admin panel.
+
+### Fixed
+# The age calculator now shows the correct result instead of NaN.
+# Google Analytics has been fixed.
+# Webmaster verification tags now work.
+# The post categories page no longer throws a 404 error.
+# The Integration code in Settings now properly embeds in the head and footer.
+# Share buttons on blog posts now work.
+# You can now allow unlimited daily usage by setting the property to zero.
+# Post tags no longer show when tags aren't attached.
+# The author profile image on blog posts has been fixed.
+# The dark logo now shows when dark mode is active.
+# Fixed the issue with user activation required.
+# Fixed the gateway settings that were preventing the use of PayPal in live mode.
+# Fixed an issue with invalid plan amount.
+# Plan price validation rules.
+# Improved tools page responsiveness.
+# Fixed admin tools search.
+# Fixed issues with login with Google and Facebook.
+# Fixed user restore encryption and restore key settings.
+
+### Updated
+# Laravel has been updated to v9.52.4 and other packages have been updated as well.
+# The admin settings have been rearranged.
+
+
+## [1.1.0] - 2023-02-15
+### Added
+# Three tools now can be set to landing page. (Image Compressor, WP Theme Detector and SEO Report).
+# Added Cookies consent.
+# Added a new page to show tools, useful when you have single tool on landing page.
+
+### Fixed
+# Fixed invalid daily usage issue.
+# Fixed Javascript errors on login page.
+# Fixed words limit error message.
+# Fixed what is my ip tool.
+# Fixed Custom tools widget loading on async issue.
+# Admin panel login redirect to dashboard fixed.
+# Added validation rules on posts and pages to prevent data truncated error.
+# Fixed What is my IP tool, not showing user's IP address.
+# Improved the default setup logic to minimize the editing time.
+# Fixed admin panel 2FA error.
+# Fixed homepage ads issue.
+# Some Minor bug fixes.
+# Fixed admin panel user profile picture.
+# Fixed images responsiveness on tools content area.
+# Fixed tools properties not updating.
+
+### Updated
+# Increased Page and Post content length.
+# Updated Laravel to v9.51.0 and other packages.
+# Enhanced theme options implementation.
+# Updated admin permissions and super admin role.
+
+
+## [1.0.0] - 2023-02-01
+### Initial Release
